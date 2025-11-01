@@ -7,7 +7,7 @@
 
 // ------------------ 自定义链接配置 ------------------
 window.CustomLinks = JSON.stringify([
-  { link: "https://soso.tanzhan.qzz.io/", name: "首页", icon: "icon-book" },
+  { link: "soso.tanzhan.qzz.io", name: "首页", icon: "icon-book" },
   {
     link: "https://t.me/ZooBBQ_bot",
     name: "Telegram",
@@ -83,5 +83,6 @@ if (document.readyState === 'loading') {
 } else {
   initCustomLinks();
 }
+
 
 
